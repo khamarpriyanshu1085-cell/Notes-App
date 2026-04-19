@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+
+    <!-- ✅ FontAwesome FIX -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="mainHeading">Ready to take Notes??????</h1>
+
+    <button id="addNote">
+        New Note+ <i class="fa-solid fa-plus"></i>
+    </button>
+
+    <div id="notesCont"></div>
+
+    <div id="noteModel">
+        <div class="modalBox">
+            <input type="text" id="noteTitle" placeholder="Note Title">
+            <textarea id="noteDescription" placeholder="Note Description" rows="8"></textarea>
+
+            <div class="modalBtns">
+                <button id="saveNote">Save Note</button>
+                <button id="closeModel">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
